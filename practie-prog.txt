@@ -1,0 +1,34 @@
+----to check the number in different div-----
+a=int(input("enter the roll no you:"))
+if a >=1 and a<=10:
+    print("the roll no in div a")
+elif a >=11 and a<=20:
+    print("the roll no in div b")
+elif a >=21 and a <=30:
+    print("the roll no in div c")
+
+----while loop prog-----
+a=5
+b=0
+while a-b:
+    b+=1
+    print("in loop")
+    
+print("out of the loop")
+
+----if else----
+if -1:
+print("zero")
+else:
+print("else")
+
+----if else with dict----
+p={
+"a":123,
+"b":111
+}
+if p.get("c"):
+print("if part")
+else:
+print("else part)
+
